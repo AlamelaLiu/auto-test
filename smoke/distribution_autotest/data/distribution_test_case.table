@@ -1,0 +1,6 @@
+ST.FUNC.001|support_numa|distribution|linwenkai|xuexing|numa.sh|support_numa|on
+ST.FUNC.002|show_numa|distribution|linwenkai|xuexing|numa.sh|show_numa|on
+ST.FUNC.005|total_number|distribution|linwenkai|xuexing|numa.sh|total_number|on
+ST.FUNC.003|numa_policy|distribution|linwenkai|xuexing|numa.sh|numa_policy|on
+ST.FUNC.004|setup_policy|distribution|linwenkai|xuexing|numa.sh|setup_policy|on
+ST.FUNC.006|mem_bind|distribution|linwenkai|xuexing|numa.sh|mem_bind|on

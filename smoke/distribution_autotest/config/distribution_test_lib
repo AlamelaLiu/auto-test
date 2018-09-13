@@ -1,0 +1,8 @@
+#!/bin/bash -ex
+
+# install_deps ?
+
+numcpus=`cat /proc/cpuinfo| grep "processor"| wc -l`
+nummems=`free -m |grep Mem | awk '{print $2}'`
+
+numnodes=`numactl -H|grep -o -P '(?<=available: ).*(?= nodes)'`	
